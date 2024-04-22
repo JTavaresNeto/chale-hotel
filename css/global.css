@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+:root {
+  --cor-fundo-container: #ede9cc;
+  --cor-fundo-header: #dbcd87;
+  --cor-border: #b5ab56;
+  --cor-span: #8b8448;
+  --cor-fundo-reserva: #a29750;
+  --cor-reserva: #fff5b0;
+  --cor-menu: #6e672c;
+  --cor-fundo-menu: #fdf6be;
+  --font: Helvetica, "Trebuchet MS", sans-serif;
+}
+
+/* formataçoes padroes*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  font-family: var(--font);
+  background: #fff url(../img/bg.png);
+}
+
+/* // fim formatações padroes*/
+
+#container {
+  background: var(--cor-fundo-container);
+  min-width: 740px;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+/*formataçao do cabeçalho*/
+
+header {
+  height: 32vh;
+  min-height: 250px;
+  background: var(--cor-fundo-header);
+  position: relative;
+}
+
+/* formataçoes do logo */
+
+#area-logo {
+  background: url(../img/topo-imagem-principal.png) no-repeat;
+  height: 250px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#area-logo a {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  height: 66px;
+  width: 151px;
+  background: url(../img/logo.png) no-repeat;
+  text-indent: -90000px;
+}
+
+/* formatçao menu*/
+
+#area-menu {
+  background: url(../img/topo-imagem-lateral.png) no-repeat;
+  height: 250px;
+  width: 450px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#area-locais {
+  margin-left: 90px;
+  margin-right: 15px;
+  padding-top: 15px;
+}
+
+#area-locais .locais {
+  border-top: 1px solid var(--cor-border);
+  border-bottom: 1px solid var(--cor-border);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 0.8em;
+  color: var(--cor-span);
+}
+
+#area-locais .locais span {
+  float: left;
+  line-height: 2em;
+}
+
+#area-locais .locais a.reserva {
+  float: right;
+  text-transform: uppercase;
+  background: var(--cor-fundo-reserva);
+  padding: 5px 10px;
+  color: var(--cor-reserva);
+}
+
+menu {
+  margin-top: 15px;
+}
+
+menu ul#navegacao {
+  float: left;
+}
+
+ul#navegacao a {
+  padding: 5px;
+  line-height: 30px;
+  color: var(--cor-menu);
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+
+ul#navegacao a:hover {
+  background: var(--cor-fundo-menu);
+}
+
+menu img {
+  float: right;
+  height: 164px;
+  width: 226px;
+}
