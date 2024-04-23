@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url(conteudo.css);
+
 :root {
   --cor-fundo-container: #ede9cc;
   --cor-fundo-header: #dbcd87;
@@ -36,7 +38,7 @@ body {
 /* // fim formatações padroes*/
 
 #container {
-  background: var(--cor-fundo-container);
+  background: var(--cor-fundo-container) url(../img/bg-container.png) top center;
   min-width: 740px;
   max-width: 1180px;
   margin: 0 auto;

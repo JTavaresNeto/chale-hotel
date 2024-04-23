@@ -1,0 +1,67 @@
+/* formatação do conteudo*/
+
+section {
+  width: 50%;
+  float: left;
+}
+
+.area-conteudo {
+  padding: 20px;
+  background: url(../img/bg-area-principal.png) repeat-x;
+}
+
+.area-conteudo h2 {
+  font-size: 1.2em;
+  padding-bottom: 10px;
+  color: var(--cor-span);
+}
+
+.area-conteudo p {
+  text-align: justify;
+  padding-bottom: 15px;
+}
+
+aside {
+  width: 50%;
+  float: right;
+}
+
+.area-lateral {
+  padding: 20px;
+  background: url(../img/bg-area-lateral.png) repeat-x;
+}
+
+.area-lateral ul li {
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-bottom: 1px solid var(--cor-fundo-menu);
+  height: 7.2em;
+}
+
+.area-lateral ul li:hover {
+    background: var(--cor-fundo-menu);
+}
+
+.area-lateral img {
+  float: left;
+  margin-right: 10px;
+}
+
+.area-lateral h3 {
+  font-size: 1em;
+  padding: 5px;
+  color: var(--cor-menu);
+  background: url(../img/ornamento.png) no-repeat right center;
+}
+
+.area-lateral p {
+  font-size: 0.9em;
+  color: #000;
+}
+
+footer {
+  background-color: #fff;
+  padding: 20px;
+  color: var(--cor-span);
+}
